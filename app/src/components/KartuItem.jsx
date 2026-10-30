@@ -8,8 +8,9 @@ export default function KartuItem({ item }) {
         <Link to={`/koleksi/${id}`}>{judul}</Link>
       </h3>
       <p>
-        {kategori} · tenggat {tenggat}
+        <b>· {kategori} ·</b>{" "}
       </p>
+      <p>Lihat Resep Masakan Nusantara!</p>
     </article>
   );
 }

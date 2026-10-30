@@ -5,9 +5,10 @@ import "./Tambah.css";
 
 const AWAL = {
   judul: "",
-  kategori: "Kuliah",
-  tenggat: "",
-  prioritas: "sedang",
+  kategori: "",
+  daerahAsal: "",
+  waktuMasak: "",
+  tingkatKesulitan: "",
 };
 
 export default function Tambah() {
@@ -30,9 +31,9 @@ export default function Tambah() {
 
   return (
     <form className="formulir" onSubmit={simpan} noValidate>
-      <h1>Tambah Tugas</h1>
+      <h1>Tambah Resep Masakan Nusantara</h1>
 
-      <label htmlFor="judul">Judul</label>
+      <label htmlFor="judul">Judul </label>
       <input id="judul" name="judul" value={form.judul} onChange={ubah} />
       {galat && <p role="alert">{galat}</p>}
 
@@ -43,29 +44,42 @@ export default function Tambah() {
         value={form.kategori}
         onChange={ubah}
       >
-        <option>Kuliah</option>
-        <option>Organisasi</option>
+        <option>Pilih Kategori Makanan</option>
+        <option>Makanan Utama</option>
+        <option>Kudapan</option>
+        <option>Minuman</option>
+        <option>Sambal</option>
       </select>
 
-      <label htmlFor="tenggat">Tenggat</label>
+      <label htmlFor="daerahAsal">Daerah Asal </label>
       <input
-        id="tenggat"
-        name="tenggat"
-        type="date"
-        value={form.tenggat}
+        id="daerahAsal"
+        name="daerahAsal"
+        value={form.daerahAsal}
         onChange={ubah}
       />
+      {galat && <p role="alert">{galat}</p>}
 
-      <label htmlFor="prioritas">Prioritas</label>
+      <label htmlFor="waktuMasak">Waktu Masak</label>
+      <input
+        id="waktuMasak"
+        name="waktuMasak"
+        value={form.waktuMasak}
+        onChange={ubah}
+      />
+      {galat && <p role="alert">{galat}</p>}
+
+      <label htmlFor="tingkatKesulitan">Tingkat Kesulitan</label>
       <select
-        id="prioritas"
-        name="prioritas"
-        value={form.prioritas}
+        id="tingkatKesulitan"
+        name="tingkatKesulitan"
+        value={form.tingkatKesulitan}
         onChange={ubah}
       >
-        <option value="rendah">Rendah</option>
-        <option value="sedang">Sedang</option>
-        <option value="tinggi">Tinggi</option>
+        <option>Pilih Tingkat Kesulitan</option>
+        <option value="Mudah">Mudah</option>
+        <option value="Sedang">Sedang</option>
+        <option value="Sulit">Sulit</option>
       </select>
 
       <button type="submit">Simpan</button>
