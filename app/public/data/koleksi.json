@@ -87,5 +87,14 @@
     "daerahAsal": "Sulawesi Utara",
     "waktuMasak": 25,
     "tingkatKesulitan": "Sedang"
+  },
+
+  {
+    "id": "11",
+    "judul": "Soto Betawi",
+    "kategori": "Soto & SUP",
+    "daerahAsal": "DKI Jakarta",
+    "waktuMasak": 60,
+    "tingkatKesulitan": "Sedang"
   }
 ]

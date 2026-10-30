@@ -23,7 +23,7 @@ export default function Koleksi() {
 
   return (
     <section>
-      <h1>Koleksi</h1>
+      <h1>ANEKA RESEP NUSANTARA</h1>
       <div className="alat-koleksi">
         <KotakPencarian nilai={cari} onUbah={setCari} />
         <select

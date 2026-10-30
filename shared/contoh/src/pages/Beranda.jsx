@@ -1,14 +1,14 @@
-import { Link } from 'react-router-dom'
-import useKoleksi from '../hooks/useKoleksi.js'
-import mahasiswa from '../../mahasiswa.json'
+import { Link } from "react-router-dom";
+import useKoleksi from "../hooks/useKoleksi.js";
+import mahasiswa from "../../mahasiswa.json";
 
 export default function Beranda() {
-  const { items, loading } = useKoleksi()
-  const jumlahKategori = new Set(items.map((item) => item.kategori)).size
+  const { items, loading } = useKoleksi();
+  const jumlahKategori = new Set(items.map((item) => item.kategori)).size;
 
   return (
     <section>
-      <h1>Daftar Tugas</h1>
+      <h1>DAFTAR RESEP MAKANAN</h1>
       <p>Tema: {mahasiswa.tema}</p>
       {loading ? (
         <p>Memuat ringkasan...</p>
@@ -19,5 +19,5 @@ export default function Beranda() {
       )}
       <Link to="/koleksi">Lihat semua tugas</Link>
     </section>
-  )
+  );
 }

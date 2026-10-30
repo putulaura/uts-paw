@@ -31,7 +31,7 @@ export default function Tambah() {
 
   return (
     <form className="formulir" onSubmit={simpan} noValidate>
-      <h1>Tambah Resep Masakan Nusantara</h1>
+      <h1 className="judul">Tambah Resep Nusantara</h1>
 
       <label htmlFor="judul">Judul </label>
       <input id="judul" name="judul" value={form.judul} onChange={ubah} />
@@ -48,7 +48,13 @@ export default function Tambah() {
         <option>Makanan Utama</option>
         <option>Kudapan</option>
         <option>Minuman</option>
-        <option>Sambal</option>
+        <option>Soto & SOP</option>
+        <option>Kue</option>
+        <option>Jajanan Pasar</option>
+        <option>Dessert</option>
+        <option>Olahan Daging</option>
+        <option>Sate dan Bakaran</option>
+        <option>Olahan Laut</option>
       </select>
 
       <label htmlFor="daerahAsal">Daerah Asal </label>
