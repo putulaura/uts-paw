@@ -1,10 +1,91 @@
 [
   {
     "id": "1",
-    "judul": "Contoh item pertama",
-    "kategori": "Contoh",
-    "fieldTema1": "ganti sesuai field tema",
-    "fieldTema2": 0,
-    "fieldTema3": "ganti sesuai field tema"
+    "judul": "Gabus Pucung",
+    "kategori": "Makanan Utama",
+    "daerahAsal": "Betawi",
+    "waktuMasak": 60,
+    "tingkatKesulitan": "Sedang"
+  },
+
+  {
+    "id": "2",
+    "judul": "Ayam Anom",
+    "kategori": "Makanan Utama",
+    "daerahAsal": "Banten",
+    "waktuMasak": 45,
+    "tingkatKesulitan": "Mudah"
+  },
+
+  {
+    "id": "3",
+    "judul": "Sate Pusut",
+    "kategori": "Makanan Utama",
+    "daerahAsal": "Nusa Tenggara Barat",
+    "waktuMasak": 40,
+    "tingkatKesulitan": "Sedang"
+  },
+
+  {
+    "id": "4",
+    "judul": "Kue Asida",
+    "kategori": "Kudapan",
+    "daerahAsal": "Maluku",
+    "waktuMasak": 30,
+    "tingkatKesulitan": "Mudah"
+  },
+
+  {
+    "id": "5",
+    "judul": "Ayam Betutu Dibungkus Pelepah Pisang",
+    "kategori": "Makanan Utama",
+    "daerahAsal": "Bali",
+    "waktuMasak": 360,
+    "tingkatKesulitan": "Sulit"
+  },
+
+  {
+    "id": "6",
+    "judul": "Sambal Gandaria",
+    "kategori": "Sambal",
+    "daerahAsal": "Jawa Barat",
+    "waktuMasak": 15,
+    "tingkatKesulitan": "Mudah"
+  },
+
+  {
+    "id": "7",
+    "judul": "Es Laksamana Mengamuk",
+    "kategori": "Minuman",
+    "daerahAsal": "Riau",
+    "waktuMasak": 20,
+    "tingkatKesulitan": "Mudah"
+  },
+
+  {
+    "id": "8",
+    "judul": "Pacri Nanas",
+    "kategori": "Kudapan",
+    "daerahAsal": "Sumatera Barat",
+    "waktuMasak": 35,
+    "tingkatKesulitan": "Mudah"
+  },
+
+  {
+    "id": "9",
+    "judul": "Teh Talua Pinang Muda",
+    "kategori": "Minuman",
+    "daerahAsal": "Sumatera Barat",
+    "waktuMasak": 15,
+    "tingkatKesulitan": "Mudah"
+  },
+
+  {
+    "id": "10",
+    "judul": "Sambal Roa Asap",
+    "kategori": "Sambal",
+    "daerahAsal": "Sulawesi Utara",
+    "waktuMasak": 25,
+    "tingkatKesulitan": "Sedang"
   }
 ]
