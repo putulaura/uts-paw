@@ -65,6 +65,9 @@ Ganti seluruh isi berkas ini dengan dokumentasi aplikasimu (butir rubrik A4). Ke
 ```markdown
 # Nama Aplikasi
 
+Resep Masakan Nusantara
+Aplikasi Aneka Resep Nusantara merupakan website untuk menampilkan dan mengelola kumpulan resep masakan nusantara.
+
 Nama: PUTU LAURA CLAUDIA ARDANI
 NIM: 124140021
 Kelas: RB
@@ -75,7 +78,15 @@ Deployment: https://USERNAME.github.io/uts-paw/
 
 ## Fitur
 
-- ...
+- Beranda
+- Koleksi Resep
+- Pencarian Resep
+- Filter Kategori
+- Detail Resep
+- Tambah Resep
+- Hapus Resep
+- Statistik
+- Tentang Saya
 
 ## Menjalankan secara lokal
 

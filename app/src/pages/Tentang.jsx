@@ -7,20 +7,31 @@ export default function Tentang() {
   const { nama, nim, kelas, tema } = mahasiswa;
   return (
     <section>
-      <h1>Tentang Saya</h1>
-      <dl>
-        <dt>Nama: </dt>
-        <dd>{nama}</dd>
-        <dt>NIM: </dt>
-        <dd>{nim}</dd>
-        <dt>Kelas: </dt>
-        <dd>{kelas}</dd>
-        <dt>Tema: </dt>
-        <dd>{tema}</dd>
-      </dl>
-      <p>
-        Kode sumber: <a href={REPO}>{REPO}</a>
-      </p>
+      <div
+        style={{
+          backgroundColor: "white",
+          padding: "25px",
+          borderRadius: "15px",
+          boxShadow: "0 0 15px 5px rgba(255, 20, 147, 0.8)",
+          maxWidth: "480px",
+          margin: "20px auto",
+        }}
+      >
+        <h1>Tentang Saya</h1>
+        <dl>
+          <dt>Nama: </dt>
+          <dd>{nama}</dd>
+          <dt>NIM: </dt>
+          <dd>{nim}</dd>
+          <dt>Kelas: </dt>
+          <dd>{kelas}</dd>
+          <dt>Tema: </dt>
+          <dd>{tema}</dd>
+        </dl>
+        <p>
+          Kode sumber: <a href={REPO}>{REPO}</a>
+        </p>
+      </div>
     </section>
   );
 }

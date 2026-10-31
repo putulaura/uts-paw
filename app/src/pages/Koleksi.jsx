@@ -23,7 +23,16 @@ export default function Koleksi() {
 
   return (
     <section>
-      <h1>ANEKA RESEP NUSANTARA</h1>
+      <h1
+        style={{
+          backgroundColor: "white",
+          boxShadow: "0 0 20px rgba(255, 105, 180, 0.8)",
+          textAlign: "center",
+          padding: "4px",
+        }}
+      >
+        ANEKA RESEP NUSANTARA
+      </h1>
       <div className="alat-koleksi">
         <KotakPencarian nilai={cari} onUbah={setCari} />
         <select

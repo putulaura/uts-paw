@@ -13,11 +13,33 @@ export default function Layout() {
   return (
     <div className="kerangka">
       <header className="kepala">
-        <strong>Selamat Datang!</strong>
+        <strong
+          style={{
+            backgroundColor: "#f96da0",
+            color: "white",
+            padding: "8px 15px",
+            borderRadius: "20px",
+            textDecoration: "none",
+            boxShadow: "0 0 15px rgba(255, 105, 180, 0.8)",
+          }}
+        >
+          Selamat Datang!
+        </strong>
         <nav className="menu">
-          {MENU.map(({ ke, label }) => (
-            <NavLink key={ke} to={ke} end={ke === "/"}>
-              {label}
+          {MENU.map((menu) => (
+            <NavLink
+              key={menu.ke}
+              to={menu.ke}
+              style={{
+                backgroundColor: "#f96da0",
+                color: "white",
+                padding: "8px 15px",
+                borderRadius: "20px",
+                textDecoration: "none",
+                boxShadow: "0 0 15px rgba(255, 105, 180, 0.8)",
+              }}
+            >
+              {menu.label}
             </NavLink>
           ))}
         </nav>
@@ -26,9 +48,7 @@ export default function Layout() {
         <Outlet />
       </main>
       <footer className="kaki">
-        <p style={{ textAlign: "center" }}>
-          Ujian Tengah Semester Pengembangan Aplikasi Web
-        </p>
+        <p style={{ textAlign: "center" }}>Koleksi Resep Nusantara Kita</p>
       </footer>
     </div>
   );

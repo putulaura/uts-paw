@@ -4,6 +4,10 @@
   gap: 0.5rem;
   max-width: 480px;
   margin: 0 auto;
+  padding: 25px;
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 0 0 15px 5px rgba(255, 20, 147, 0.8);
 }
 
 .judul {
@@ -19,7 +23,7 @@
 .formulir input,
 .formulir select {
   padding: 0.5rem 0.75rem;
-  border: 1px solid #c13783;
+  border: 1px solid #f263b2;
   border-radius: 6px;
   font: inherit;
 }
@@ -36,7 +40,7 @@
   padding: 0.6rem 1.5rem;
   border: 0;
   border-radius: 6px;
-  background: #b91b7f;
+  background: #f96da0;
   color: #fff;
   font: inherit;
   cursor: pointer;

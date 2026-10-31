@@ -9,7 +9,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 1rem 1.5rem;
-  background-color: #f7edf2;
+  background-color: #ffffff;
 }
 
 .menu {
@@ -32,9 +32,9 @@
 .kaki {
   padding: 1rem 1.5rem;
   border-top: 1px solid #dcdcdc;
-  color: #f8f9fc;
+  color: #f767b6;
   font-size: 0.9rem;
-  background-color: #de80ad;
+  background-color: #ffffff;
 }
 
 .aksi {
@@ -91,7 +91,7 @@
 .alat-koleksi input,
 .alat-koleksi select {
   padding: 0.5rem 0.75rem;
-  border: 1px solid #c4c4c4;
+  border: 1px solid #d171a7;
   border-radius: 6px;
   font: inherit;
 }
