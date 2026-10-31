@@ -16,7 +16,7 @@ export default function Beranda() {
           backgroundColor: "#fff0f5",
         }}
       >
-        <thead style={{ backgroundColor: "#ed9ead" }}>
+        <thead style={{ backgroundColor: "#ed9ebb" }}>
           <tr>
             <th>Informasi</th>
             <th>Keterangan</th>

@@ -9,6 +9,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 1rem 1.5rem;
+  background-color: #f7edf2;
 }
 
 .menu {
@@ -31,8 +32,9 @@
 .kaki {
   padding: 1rem 1.5rem;
   border-top: 1px solid #dcdcdc;
-  color: #3756be;
+  color: #f8f9fc;
   font-size: 0.9rem;
+  background-color: #de80ad;
 }
 
 .aksi {
@@ -66,6 +68,7 @@
   padding: 1rem;
   border: 1px solid #d6407f;
   border-radius: 8px;
+  background-color: #f6eaf1;
 }
 
 .kartu h3 {
@@ -75,7 +78,7 @@
 
 .kartu p {
   margin: 0;
-  color: #d04d8c;
+  color: #f50464;
 }
 
 .alat-koleksi {
