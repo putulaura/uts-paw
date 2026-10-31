@@ -9,15 +9,49 @@ export default function Beranda() {
   return (
     <section>
       <h1>TEMUKAN RESEP MAKANAN NUSANTARA!</h1>
-      <p>Tema: {mahasiswa.tema}</p>
-      {loading ? (
-        <p>Memuat ringkasan...</p>
-      ) : (
-        <p>
-          Ada {items.length} tugas dalam {jumlahKategori} kategori.
-        </p>
-      )}
-      <Link to="/koleksi">Lihat semua tugas</Link>
+      <table
+        style={{
+          width: "100%",
+          borderCollapse: "collapse",
+          backgroundColor: "#fff0f5",
+        }}
+      >
+        <thead style={{ backgroundColor: "#ed9ead" }}>
+          <tr>
+            <th>Informasi</th>
+            <th>Keterangan</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Tema</td>
+            <td>{mahasiswa.tema}</td>
+          </tr>
+          <tr>
+            <td>Jumlah Tugas</td>
+            <td>{loading ? "Memuat..." : items.length}</td>
+          </tr>
+          <tr>
+            <td>Jumlah Kategori</td>
+            <td>{loading ? "Memuat..." : jumlahKategori}</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <Link
+        to="/koleksi"
+        style={{
+          backgroundColor: "#c6425d",
+          color: "white",
+          padding: "10px 20px",
+          textDecoration: "none",
+          borderRadius: "5px",
+          display: "inline-block",
+          marginTop: "15px",
+        }}
+      >
+        Lihat semua tugas
+      </Link>
     </section>
   );
 }
