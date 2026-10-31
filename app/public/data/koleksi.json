@@ -4,7 +4,7 @@
     "judul": "Gabus Pucung",
     "kategori": "Makanan Utama",
     "daerahAsal": "Betawi",
-    "waktuMasak": 60 "Menit",
+    "waktuMasak": 60,
     "tingkatKesulitan": "Sedang"
   },
 
@@ -13,7 +13,7 @@
     "judul": "Ayam Anom",
     "kategori": "Makanan Utama",
     "daerahAsal": "Banten",
-    "waktuMasak": 45 "Menit",
+    "waktuMasak": 45,
     "tingkatKesulitan": "Mudah"
   },
 
@@ -22,7 +22,7 @@
     "judul": "Sate Pusut",
     "kategori": "Makanan Utama",
     "daerahAsal": "Nusa Tenggara Barat",
-    "waktuMasak": 40 "Menit",
+    "waktuMasak": 40,
     "tingkatKesulitan": "Sedang"
   },
 
@@ -31,7 +31,7 @@
     "judul": "Kue Asida",
     "kategori": "Kudapan",
     "daerahAsal": "Maluku",
-    "waktuMasak": 30 "Menit",
+    "waktuMasak": 30,
     "tingkatKesulitan": "Mudah"
   },
 
@@ -40,7 +40,7 @@
     "judul": "Ayam Betutu Dibungkus Pelepah Pisang",
     "kategori": "Makanan Utama",
     "daerahAsal": "Bali",
-    "waktuMasak": 360 "Menit",
+    "waktuMasak": 360,
     "tingkatKesulitan": "Sulit"
   },
 
@@ -49,7 +49,7 @@
     "judul": "Sambal Gandaria",
     "kategori": "Sambal",
     "daerahAsal": "Jawa Barat",
-    "waktuMasak": 15 "Menit",
+    "waktuMasak": 15,
     "tingkatKesulitan": "Mudah"
   },
 
@@ -58,7 +58,7 @@
     "judul": "Es Laksamana Mengamuk",
     "kategori": "Minuman",
     "daerahAsal": "Riau",
-    "waktuMasak": 20 "Menit",
+    "waktuMasak": 20,
     "tingkatKesulitan": "Mudah"
   },
 
@@ -67,7 +67,7 @@
     "judul": "Pacri Nanas",
     "kategori": "Kudapan",
     "daerahAsal": "Sumatera Barat",
-    "waktuMasak": 35 "Menit",
+    "waktuMasak": 35,
     "tingkatKesulitan": "Mudah"
   },
 
@@ -76,7 +76,7 @@
     "judul": "Teh Talua Pinang Muda",
     "kategori": "Minuman",
     "daerahAsal": "Sumatera Barat",
-    "waktuMasak": 15 "Menit",
+    "waktuMasak": 15,
     "tingkatKesulitan": "Mudah"
   },
 
@@ -85,7 +85,7 @@
     "judul": "Sambal Roa Asap",
     "kategori": "Sambal",
     "daerahAsal": "Sulawesi Utara",
-    "waktuMasak": 25 "Menit",
+    "waktuMasak": 25,
     "tingkatKesulitan": "Sedang"
   },
 
@@ -94,7 +94,7 @@
     "judul": "Soto Betawi",
     "kategori": "Soto & SUP",
     "daerahAsal": "DKI Jakarta",
-    "waktuMasak": 60 "Menit",
+    "waktuMasak": 60,
     "tingkatKesulitan": "Sedang"
   }
 ]
