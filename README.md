@@ -71,10 +71,10 @@ Aplikasi Aneka Resep Nusantara merupakan website untuk menampilkan dan mengelola
 Nama: PUTU LAURA CLAUDIA ARDANI
 NIM: 124140021
 Kelas: RB
-Tema: Resep Masaakn Nusantara
-Deployment: https://USERNAME.github.io/uts-paw/
+Tema: Resep Masakan Nusantara
+Deployment: https://putulaura.github.io/uts-paw/
 
-![Tangkapan layar beranda](./docs/beranda.png)
+![Tangkapan layar beranda](docs/beranda.png)
 
 ## Fitur
 
