@@ -74,7 +74,7 @@ Kelas: RB
 Tema: Resep Masaakn Nusantara
 Deployment: https://USERNAME.github.io/uts-paw/
 
-![Tangkapan layar beranda](docs/beranda.png)
+![Tangkapan layar beranda](./docs/beranda.png)
 
 ## Fitur
 
@@ -96,5 +96,6 @@ npm run dev
 
 ## Konsep React yang dipakai
 
-- ...
+- Component
+- JSX
 ```
